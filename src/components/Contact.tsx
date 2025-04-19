@@ -31,7 +31,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Have a project in mind? Let's discuss how we can work together.
+            Have a project in mind? Let&apos;s discuss how we can work together.
           </p>
         </div>
 

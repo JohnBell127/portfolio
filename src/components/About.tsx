@@ -82,7 +82,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900">About Me</h2>
             <div className="space-y-4 text-lg text-gray-600">
               <p>
-                I'm a Software Developer with a passion for creating elegant solutions to complex problems.
+                I am a Software Developer with a passion for creating elegant solutions to complex problems.
                 I enjoy working across the full stack, from backend systems to user interfaces,
                 always striving to build robust and scalable applications.
               </p>

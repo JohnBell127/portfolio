@@ -43,7 +43,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 mb-6"
           >
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">John Bell</span>
+            Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">John Bell</span>
           </motion.h1>
           
           <motion.h2 
@@ -62,7 +62,7 @@ const Hero = () => {
             className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto mb-12"
           >
             I create beautiful, functional, and user-friendly web applications.
-            Let's build something amazing together.
+            Let&apos;s build something amazing together.
           </motion.p>
           
           <motion.div 

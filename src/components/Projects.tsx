@@ -48,12 +48,12 @@ const projects = [
 const categories = ['All', 'Full Stack', 'Frontend', 'AI/ML'];
 
 const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
+  const [_selectedCategory, _setSelectedCategory] = useState('All');
+  const [_selectedProject, _setSelectedProject] = useState<typeof projects[0] | null>(null);
 
-  const filteredProjects = selectedCategory === 'All'
+  const filteredProjects = _selectedCategory === 'All'
     ? projects
-    : projects.filter(project => project.category === selectedCategory);
+    : projects.filter(project => project.category === _selectedCategory);
 
   return (
     <section id="projects" className="py-20 bg-gray-50">
@@ -72,9 +72,9 @@ const Projects = () => {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => setSelectedCategory(category)}
+              onClick={() => _setSelectedCategory(category)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
-                selectedCategory === category
+                _selectedCategory === category
                   ? 'bg-indigo-600 text-white'
                   : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
               }`}
